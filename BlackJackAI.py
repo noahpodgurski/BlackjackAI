@@ -137,7 +137,7 @@ if __name__ == "__main__":
 	local_dir = os.path.dirname(__file__)
 	config_path = os.path.join(local_dir, "config-feedforward.txt")
 	#run trainer 
-	# run(config_path) #comment out to skip
+	run(config_path) #comment out to skip
 
 	#test best net
 	testNet(pickle.load(open("best.pickle", "rb")), 1000)

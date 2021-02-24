@@ -1,5 +1,5 @@
 # BlackjackAI
-Train AI to play Blackjack
+Machine Learning AI learns to play Blackjack
 
 # How to run
 1. Run `BlackJackAI.py`
